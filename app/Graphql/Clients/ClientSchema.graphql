@@ -1,0 +1,20 @@
+type Client {
+  id: Int,
+  name: String,
+  email: String,
+  access_token: String,
+  refresh_token:String,
+  updated_at: String,
+  deleted_at: String,
+}
+
+type Query {
+  login(email: String!, password: String!): Client,
+  accessToken: String,
+}
+
+type Mutation {
+  register(name: String!, email: String!, password: String!): Client,
+  forgotPassword(email: String!): String,
+  resetPassword(password: String!, token: String!): Client,
+}

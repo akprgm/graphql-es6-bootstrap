@@ -1,0 +1,86 @@
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Must provide query string.","level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'get' of null","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Cannot read property 'get' of null","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'get' of null","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'get' of null","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"myString is not defined","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"myString is not defined","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"myString is not defined","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"myString is not defined","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"hasher is not defined","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Converting circular structure to JSON","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Converting circular structure to JSON","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Converting circular structure to JSON","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Converting circular structure to JSON","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Converting circular structure to JSON","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'hash' of undefined","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"country is not defined on the model.","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"The request could not be completed due to a conflict with the current state of the target resource !","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"this.sendMailToUser is not a function","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"The request could not be completed due to a conflict with the current state of the target resource !","locations":[{"line":2,"column":3}],"path":["register"],"level":"error"}
+{"message":"invalid username or password","locations":[{"line":2,"column":3}],"path":["login"],"level":"error"}
+{"message":"invalid username or password","locations":[{"line":2,"column":3}],"path":["login"],"level":"error"}
+{"message":"Field \"accessToken\" argument \"refresh_token\" of type \"String!\" is required but not provided.","locations":[{"line":2,"column":3}],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"The request has not been applied because it lacks valid authentication credentials for the target resource !","locations":[{"line":2,"column":3}],"path":["accessToken"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column 'uuid' in 'where clause'","sqlState":"42S22","index":0,"sql":"select `clients`.* from `clients` where `uuid` = 'akprgm@gmail.com' and `clients`.`deleted_at` is null limit 1","level":"error"}
+{"message":"The request has not been applied because it lacks valid authentication credentials for the target resource !","locations":[{"line":2,"column":3}],"path":["accessToken"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"mailer.sendForgotPasswordMail is not a function","locations":[{"line":2,"column":3}],"path":["forgotPassword"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'mail' of undefined","locations":[{"line":2,"column":3}],"path":["forgotPassword"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'mail' of undefined","locations":[{"line":2,"column":3}],"path":["forgotPassword"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'mail' of undefined","locations":[{"line":2,"column":3}],"path":["forgotPassword"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Cannot read property 'mail' of undefined","locations":[{"line":2,"column":3}],"path":["forgotPassword"],"level":"error"}
+{"message":"Server Started Successfully","level":"info"}
+{"message":"Message sent to akprgm@gmail.com, Subject: Hope Security","level":"error"}
+{"message":"Must provide query string.","level":"error"}
+{"message":"Must provide query string.","level":"error"}
+{"message":"Must provide query string.","level":"error"}
+{"message":"Syntax Error: Unterminated string.","locations":[{"line":2,"column":83}],"level":"error"}
+{"message":"Must provide query string.","level":"error"}
+{"message":"Field \"resetPassword\" of type \"Client\" must have a selection of subfields. Did you mean \"resetPassword { ... }\"?","locations":[{"line":2,"column":3}],"level":"error"}
+{"message":"\"password\" length must be at least 6 characters long","locations":[{"line":2,"column":3}],"path":["resetPassword"],"level":"error"}

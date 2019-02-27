@@ -1,0 +1,29 @@
+<script>
+  /* eslint-disable */
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  let http = new XMLHttpRequest();	
+  let forgetUrl = getParameterByName('url');
+  http.open('GET', forgetUrl, true);
+  http.onreadystatechange = function () {
+    if (http.readyState === 4) {
+      if (http.status === 200) {
+        let result = JSON.parse(http.response);
+        if (result.app_url !== '') {
+          setTimeout(function () { window.location = result.web_url; }, 25);
+          window.location = result.app_url;
+        }  else {
+          window.location = result.web_url;
+        }
+      }
+    }
+  };
+  http.send();
+</script> 
